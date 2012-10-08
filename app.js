@@ -5,6 +5,7 @@ steal( 'assets/js/libs/jquery' )
     .then( 'assets/js/plugins/backbone.layoutmanager' )
     .then( 'assets/js/plugins/jquerypp.custom' )
 	.plugins( 'steal/less' )
+    .then( 'app/application' )
 	.then(function(){						// Adds a function to be called back once all prior files have been loaded and run
 		steal.less('assets/css/base');
 	});
