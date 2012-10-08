@@ -15,7 +15,7 @@ enablers and use backbone style models-collections to map the application
 logic. Layouts-views could be solved by using just some extra folders to
 separate between pages and nested views.
 
-Views are get from the server via a sync call. The alternative would be using
+Views are gotten from the server via a synchronous call. The alternative would be using
 deferred, but although this seems more popular at the moment, I decided it
 would be easier to do this, because in production the views could be strings
 under the same namespace and the handling logic would be the same.
