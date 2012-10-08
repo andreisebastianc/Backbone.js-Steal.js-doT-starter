@@ -1,4 +1,10 @@
 /**
+ * custom backbone application starter
+ * Copyright(c) 2012 Andrei Sebastian Cîmpean <andreisebastianc@gmail.com>
+ * MIT Licensed
+ */
+
+/**
  *
  */
 (function (window,Backbone,_,doT,$,console) {
